@@ -9,7 +9,7 @@
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "favicon": "@PROJECT_PATH@/assets/images/vergrootglas-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-planbee-01-128x88.png",
     "noImageResize": "",
     "versionFirst": "4.5.4",
     "uniqCompNum": 425,
