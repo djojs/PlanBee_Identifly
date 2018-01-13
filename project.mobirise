@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PlanBee_Identifly",
-    "currentPage": "page100.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -12,7 +12,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/logo-planbee-01-128x88.png",
     "noImageResize": "",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 425,
+    "uniqCompNum": 432,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -28,42 +28,41 @@
       },
       "components": [
         {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#4c6972",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-planbee-1-1400x963.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
+            ".mbr-article": {
+              "color": "#fff"
             }
           },
-          "text1": "",
-          "text2": "",
-          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/logo-planbee-3-1761x439.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#3C3C3C",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "PRE MADE BLOCKS",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">START A JOURNEY</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-bs"
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-bz"
         },
         {
           "_inherit": "header1",
@@ -87,7 +86,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Identifly",
-          "text": "Ontdek de naam van het door jouw gevonden organisme.<br><br>",
+          "text": "Welk dier heb jij gevonden?<br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Bodemdieren</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">Vlinders</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"page86.html\" data-toolbar=\"-mbrBtnMove\">Waterdieren</a>",
           "_tags": [
             "Theme"
@@ -102,7 +101,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Bodemdieren",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
@@ -127,7 +126,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Bodemdieren",
-          "text": "In de bodem leven heel veel dieren. De dieren in deze app komen allemaal in het bos voor en de meeste vind je ook in tuinen en stadsparken. Als je diertjes hebt gevangen (bijvoorbeeld met een bodemval) bekijk je de diertjes goed. Zorg ervoor dat je de diertjes niet beschadigd en laat ze weer vrij als je de het diertje hebt geïdentificeerd.",
+          "text": "In de bodem leven heel veel dieren. De dieren in deze app komen allemaal in het bos voor en de meeste vind je ook in tuinen en stadsparken. <br>Als je diertjes hebt gevangen (bijvoorbeeld met een bodemval) bekijk je de diertjes goed. Zorg ervoor dat je de diertjes niet beschadigd en laat ze weer vrij als je de het diertje hebt geïdentificeerd.",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Start</a>",
           "_tags": [
             "Theme"
@@ -137,7 +136,7 @@
           "_anchor": "header2-3",
           "_styles": {
             "P": {
-              "text-align": "center"
+              "text-align": "left"
             },
             "H1": {
               "text-align": "center"
@@ -150,7 +149,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren uitkomst",
-        "order": 53
+        "order": 52
       },
       "components": [
         {
@@ -2267,7 +2266,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Vlinders",
-        "order": 30
+        "order": 29
       },
       "components": [
         {
@@ -2316,7 +2315,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 1",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -2325,11 +2324,14 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#fac51c"
+              "background": "#f7da64"
             },
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2339,7 +2341,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -2415,7 +2417,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 2",
-        "order": 5
+        "order": 4
       },
       "components": [
         {
@@ -2429,6 +2431,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2438,7 +2443,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -2514,7 +2519,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 3",
-        "order": 6
+        "order": 5
       },
       "components": [
         {
@@ -2528,6 +2533,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2537,7 +2545,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -2613,7 +2621,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 4",
-        "order": 7
+        "order": 6
       },
       "components": [
         {
@@ -2627,6 +2635,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2636,7 +2647,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -2712,7 +2723,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 5",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -2726,6 +2737,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2735,7 +2749,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -2811,7 +2825,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 6",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -2825,6 +2839,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2834,7 +2851,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -2910,7 +2927,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 7",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -2924,6 +2941,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -2933,7 +2953,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3009,7 +3029,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 8",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
@@ -3023,6 +3043,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3032,7 +3055,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3108,7 +3131,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 9",
-        "order": 12
+        "order": 11
       },
       "components": [
         {
@@ -3122,6 +3145,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3131,7 +3157,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3207,7 +3233,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 10",
-        "order": 13
+        "order": 12
       },
       "components": [
         {
@@ -3221,6 +3247,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3230,7 +3259,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3306,7 +3335,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 11",
-        "order": 14
+        "order": 13
       },
       "components": [
         {
@@ -3320,6 +3349,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3329,7 +3361,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3405,7 +3437,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 12",
-        "order": 15
+        "order": 14
       },
       "components": [
         {
@@ -3419,6 +3451,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3428,7 +3463,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3504,7 +3539,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 13",
-        "order": 16
+        "order": 15
       },
       "components": [
         {
@@ -3518,6 +3553,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3527,7 +3565,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3603,7 +3641,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 14",
-        "order": 17
+        "order": 16
       },
       "components": [
         {
@@ -3617,6 +3655,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3626,7 +3667,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3702,7 +3743,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 15",
-        "order": 18
+        "order": 17
       },
       "components": [
         {
@@ -3716,6 +3757,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3725,7 +3769,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3801,7 +3845,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 16",
-        "order": 19
+        "order": 18
       },
       "components": [
         {
@@ -3815,6 +3859,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3824,7 +3871,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3900,7 +3947,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 17",
-        "order": 20
+        "order": 19
       },
       "components": [
         {
@@ -3914,6 +3961,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -3923,7 +3973,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -3999,7 +4049,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 18",
-        "order": 21
+        "order": 20
       },
       "components": [
         {
@@ -4013,6 +4063,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4022,7 +4075,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4098,7 +4151,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 19",
-        "order": 22
+        "order": 21
       },
       "components": [
         {
@@ -4112,6 +4165,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4121,7 +4177,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4197,7 +4253,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 20",
-        "order": 23
+        "order": 22
       },
       "components": [
         {
@@ -4211,6 +4267,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4220,7 +4279,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4296,7 +4355,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 21",
-        "order": 24
+        "order": 23
       },
       "components": [
         {
@@ -4310,6 +4369,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4319,7 +4381,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4395,7 +4457,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 22",
-        "order": 25
+        "order": 24
       },
       "components": [
         {
@@ -4409,6 +4471,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4418,7 +4483,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4494,7 +4559,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 23",
-        "order": 26
+        "order": 25
       },
       "components": [
         {
@@ -4508,6 +4573,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4517,7 +4585,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4593,7 +4661,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 24",
-        "order": 27
+        "order": 26
       },
       "components": [
         {
@@ -4607,6 +4675,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4616,7 +4687,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4692,7 +4763,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 25",
-        "order": 28
+        "order": 27
       },
       "components": [
         {
@@ -4706,6 +4777,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4715,7 +4789,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4791,7 +4865,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 26",
-        "order": 29
+        "order": 28
       },
       "components": [
         {
@@ -4805,6 +4879,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -4814,7 +4891,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -4890,7 +4967,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Bodemdieren uitkomst",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -6737,7 +6814,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 1",
-        "order": 54
+        "order": 53
       },
       "components": [
         {
@@ -6751,6 +6828,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -6760,7 +6840,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -6836,7 +6916,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 2",
-        "order": 55
+        "order": 54
       },
       "components": [
         {
@@ -6850,6 +6930,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -6859,7 +6942,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -6935,7 +7018,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 3",
-        "order": 56
+        "order": 55
       },
       "components": [
         {
@@ -6949,6 +7032,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -6958,7 +7044,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7034,7 +7120,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 4",
-        "order": 57
+        "order": 56
       },
       "components": [
         {
@@ -7048,6 +7134,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7057,7 +7146,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7133,7 +7222,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 5",
-        "order": 58
+        "order": 57
       },
       "components": [
         {
@@ -7147,6 +7236,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7156,7 +7248,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7232,7 +7324,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 6",
-        "order": 59
+        "order": 58
       },
       "components": [
         {
@@ -7246,6 +7338,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7255,7 +7350,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7331,7 +7426,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 7",
-        "order": 60
+        "order": 59
       },
       "components": [
         {
@@ -7345,6 +7440,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7354,7 +7452,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7430,7 +7528,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 8",
-        "order": 61
+        "order": 60
       },
       "components": [
         {
@@ -7444,6 +7542,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7453,7 +7554,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7529,7 +7630,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 9",
-        "order": 62
+        "order": 61
       },
       "components": [
         {
@@ -7543,6 +7644,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7552,7 +7656,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7628,7 +7732,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 10",
-        "order": 63
+        "order": 62
       },
       "components": [
         {
@@ -7642,6 +7746,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7651,7 +7758,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7727,7 +7834,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 11",
-        "order": 64
+        "order": 63
       },
       "components": [
         {
@@ -7741,6 +7848,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7750,7 +7860,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7826,7 +7936,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 12",
-        "order": 65
+        "order": 64
       },
       "components": [
         {
@@ -7840,6 +7950,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7849,7 +7962,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -7925,7 +8038,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 13",
-        "order": 66
+        "order": 65
       },
       "components": [
         {
@@ -7939,6 +8052,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -7948,7 +8064,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8024,7 +8140,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 14",
-        "order": 67
+        "order": 66
       },
       "components": [
         {
@@ -8038,6 +8154,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8047,7 +8166,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8123,7 +8242,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 15",
-        "order": 68
+        "order": 67
       },
       "components": [
         {
@@ -8137,6 +8256,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8146,7 +8268,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8222,7 +8344,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 16",
-        "order": 69
+        "order": 68
       },
       "components": [
         {
@@ -8236,6 +8358,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8245,7 +8370,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8321,7 +8446,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 17",
-        "order": 70
+        "order": 69
       },
       "components": [
         {
@@ -8335,6 +8460,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8344,7 +8472,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8420,7 +8548,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 18",
-        "order": 71
+        "order": 70
       },
       "components": [
         {
@@ -8434,6 +8562,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8443,7 +8574,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8519,7 +8650,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 19",
-        "order": 72
+        "order": 71
       },
       "components": [
         {
@@ -8533,6 +8664,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8542,7 +8676,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8618,7 +8752,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 20",
-        "order": 73
+        "order": 72
       },
       "components": [
         {
@@ -8632,6 +8766,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8641,7 +8778,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8717,7 +8854,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 21",
-        "order": 74
+        "order": 73
       },
       "components": [
         {
@@ -8731,6 +8868,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8740,7 +8880,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8816,7 +8956,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 22",
-        "order": 75
+        "order": 74
       },
       "components": [
         {
@@ -8830,6 +8970,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8839,7 +8982,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -8915,7 +9058,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 23",
-        "order": 76
+        "order": 75
       },
       "components": [
         {
@@ -8929,6 +9072,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -8938,7 +9084,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9014,7 +9160,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 24",
-        "order": 77
+        "order": 76
       },
       "components": [
         {
@@ -9028,6 +9174,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9037,7 +9186,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9113,7 +9262,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 25",
-        "order": 78
+        "order": 77
       },
       "components": [
         {
@@ -9127,6 +9276,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9136,7 +9288,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9212,7 +9364,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 26",
-        "order": 79
+        "order": 78
       },
       "components": [
         {
@@ -9226,6 +9378,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9235,7 +9390,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9311,7 +9466,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 27",
-        "order": 80
+        "order": 79
       },
       "components": [
         {
@@ -9325,6 +9480,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9334,7 +9492,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9410,7 +9568,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 28",
-        "order": 81
+        "order": 80
       },
       "components": [
         {
@@ -9424,6 +9582,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9433,7 +9594,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9509,7 +9670,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 29",
-        "order": 82
+        "order": 81
       },
       "components": [
         {
@@ -9523,6 +9684,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9532,7 +9696,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9608,7 +9772,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 30",
-        "order": 83
+        "order": 82
       },
       "components": [
         {
@@ -9622,6 +9786,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -9631,7 +9798,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -9707,7 +9874,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Vlinders uitkomst",
-        "order": 31
+        "order": 30
       },
       "components": [
         {
@@ -11076,7 +11243,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren",
-        "order": 52
+        "order": 51
       },
       "components": [
         {
@@ -11124,7 +11291,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 1",
-        "order": 32
+        "order": 31
       },
       "components": [
         {
@@ -11138,6 +11305,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11147,7 +11317,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11223,7 +11393,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 2",
-        "order": 33
+        "order": 32
       },
       "components": [
         {
@@ -11237,6 +11407,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11246,7 +11419,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11322,7 +11495,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 3",
-        "order": 34
+        "order": 33
       },
       "components": [
         {
@@ -11336,6 +11509,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11345,7 +11521,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11421,7 +11597,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 4",
-        "order": 35
+        "order": 34
       },
       "components": [
         {
@@ -11435,6 +11611,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11444,7 +11623,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11520,7 +11699,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 5",
-        "order": 36
+        "order": 35
       },
       "components": [
         {
@@ -11534,6 +11713,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11543,7 +11725,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11619,7 +11801,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 6",
-        "order": 37
+        "order": 36
       },
       "components": [
         {
@@ -11633,6 +11815,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11642,7 +11827,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11718,7 +11903,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 7",
-        "order": 38
+        "order": 37
       },
       "components": [
         {
@@ -11732,6 +11917,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11741,7 +11929,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11817,7 +12005,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 8",
-        "order": 39
+        "order": 38
       },
       "components": [
         {
@@ -11831,6 +12019,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11840,7 +12031,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -11916,7 +12107,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 9",
-        "order": 40
+        "order": 46
       },
       "components": [
         {
@@ -11930,6 +12121,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -11939,7 +12133,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12015,7 +12209,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 10",
-        "order": 41
+        "order": 39
       },
       "components": [
         {
@@ -12029,6 +12223,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12038,7 +12235,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12114,7 +12311,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 11",
-        "order": 42
+        "order": 40
       },
       "components": [
         {
@@ -12128,6 +12325,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12137,7 +12337,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12213,7 +12413,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 12",
-        "order": 43
+        "order": 41
       },
       "components": [
         {
@@ -12227,6 +12427,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12236,7 +12439,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12312,7 +12515,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 13",
-        "order": 44
+        "order": 42
       },
       "components": [
         {
@@ -12326,6 +12529,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12335,7 +12541,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12411,7 +12617,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 14",
-        "order": 45
+        "order": 43
       },
       "components": [
         {
@@ -12425,6 +12631,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12434,7 +12643,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12510,7 +12719,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 15",
-        "order": 46
+        "order": 44
       },
       "components": [
         {
@@ -12524,6 +12733,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12533,7 +12745,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12609,7 +12821,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 16",
-        "order": 47
+        "order": 45
       },
       "components": [
         {
@@ -12623,6 +12835,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12632,7 +12847,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12708,7 +12923,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 17",
-        "order": 48
+        "order": 47
       },
       "components": [
         {
@@ -12722,6 +12937,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12731,7 +12949,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12807,7 +13025,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 18",
-        "order": 49
+        "order": 48
       },
       "components": [
         {
@@ -12821,6 +13039,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12830,7 +13051,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -12906,7 +13127,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 19",
-        "order": 50
+        "order": 49
       },
       "components": [
         {
@@ -12920,6 +13141,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -12929,7 +13153,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
@@ -13005,7 +13229,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 20",
-        "order": 51
+        "order": 50
       },
       "components": [
         {
@@ -13019,6 +13243,9 @@
             ".mbr-navbar__section": {},
             ".mbr-navbar__hamburger": {
               "color": "#f7da64"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
             }
           },
           "_params": {
@@ -13028,7 +13255,7 @@
             "sticky": true,
             "collapsed": false,
             "transparent": true,
-            "color": "#fac51c",
+            "color": "#f7da64",
             "hamburgerColor": "#f7da64"
           },
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">BODEMDIEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">VLINDERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page86.html\">WATERDIEREN</a></li>  ",
