@@ -126,7 +126,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Bodemdieren",
-          "text": "In de bodem leven heel veel dieren. De dieren in deze app komen allemaal in het bos voor en de meeste vind je ook in tuinen en stadsparken. <br>Als je diertjes hebt gevangen (bijvoorbeeld met een bodemval) bekijk je de diertjes goed. Zorg ervoor dat je de diertjes niet beschadigd en laat ze weer vrij als je de het diertje hebt geïdentificeerd.",
+          "text": "In de bodem leven heel veel dieren. De dieren in deze app komen allemaal in het bos voor en de meeste vind je ook in tuinen en stadsparken. <br><br>Als je diertjes hebt gevangen (bijvoorbeeld met een bodemval) bekijk je de diertjes goed. Zorg ervoor dat je de diertjes niet beschadigd en laat ze weer vrij als je de het diertje hebt geïdentificeerd.",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Start</a>",
           "_tags": [
             "Theme"
@@ -2291,7 +2291,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Vlinders",
-          "text": "Stel je geduld op de proef en ga de gevonden dagvlinder in zijn eigen omgeving en in vrijheid goed bekijken om de naam van de vlinder te weten te komen. In de app zitten de dagvlinders die het meest voorkomen. Staat de vlinder er niet bij? Zoek het dan op in een boek of op internet.\n<br><br><b>LET OP! </b>Door het geslacht van de vlinder kan de vlinder soms afwijken van de gegeven foto.&nbsp;<br>",
+          "text": "Stel je geduld op de proef en ga de gevonden dagvlinder in zijn eigen omgeving en in vrijheid goed bekijken om de naam van de vlinder te weten te komen.&nbsp;<br><br><b>LET OP! </b>Door het geslacht van de vlinder kan de vlinder soms afwijken van de gegeven foto.&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"page87.html\" data-toolbar=\"-mbrBtnMove\">Start</a>",
           "_tags": [
             "Theme"
@@ -2305,7 +2305,7 @@
               "font-size": "36px"
             },
             "P": {
-              "text-align": "center"
+              "text-align": "left"
             }
           }
         }
@@ -11268,7 +11268,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Waterdieren",
-          "text": "Ga je dieren zoeken of heb je dieren gevonden in een sloot, plas, rivier of ven? Haal de dieren met een schepnet uit het water en doe ze voorzichtig in een witte emmer of een glazen pot. Bekijk de dieren goed en beantwoordt de vragen in de app. Ben je klaar? Laat de dieren zo snel mogelijk weer vrij. Helaas staan niet alle waterdieren in de app, je kunt natuurlijk altijd verder speuren in boeken of op het internet.",
+          "text": "Ga je dieren zoeken of heb je dieren gevonden in een sloot, plas, rivier of ven? Haal de dieren met een schepnet uit het water en doe ze voorzichtig in een witte emmer of een glazen pot. <br><br>Ben je klaar? Laat de dieren zo snel mogelijk weer vrij.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"page55.html\" data-toolbar=\"-mbrBtnMove\">Start</a>",
           "_tags": [
             "Theme"
@@ -11280,7 +11280,7 @@
               "text-align": "center"
             },
             "P": {
-              "text-align": "center"
+              "text-align": "left"
             }
           },
           "_anchor": "header2-6e"
