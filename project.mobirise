@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "PlanBee_Identifly",
-    "currentPage": "index.html",
+    "currentPage": "page86.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -12,7 +12,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/logo-planbee-01-128x88.png",
     "noImageResize": "",
     "versionFirst": "4.5.4",
-    "uniqCompNum": 432,
+    "uniqCompNum": 434,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png"
   },
@@ -101,7 +101,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Bodemdieren",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -126,7 +126,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Bodemdieren",
-          "text": "In de bodem leven heel veel dieren. De dieren in deze app komen allemaal in het bos voor en de meeste vind je ook in tuinen en stadsparken. <br><br>Als je diertjes hebt gevangen (bijvoorbeeld met een bodemval) bekijk je de diertjes goed. Zorg ervoor dat je de diertjes niet beschadigd en laat ze weer vrij als je de het diertje hebt geïdentificeerd.",
+          "text": "In de bodem leven heel veel dieren. De dieren in deze app komen allemaal in het bos voor en de meeste vind je ook in tuinen en stadsparken. <br><br>Als je diertjes hebt gevangen (bijvoorbeeld met een bodemval) bekijk je de diertjes goed. Zorg ervoor dat je de diertjes niet beschadigt en laat ze weer vrij als je de het diertje hebt geïdentificeerd.",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">Start</a>",
           "_tags": [
             "Theme"
@@ -139,7 +139,7 @@
               "text-align": "left"
             },
             "H1": {
-              "text-align": "center"
+              "text-align": "left"
             }
           }
         }
@@ -149,7 +149,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren uitkomst",
-        "order": 52
+        "order": 53
       },
       "components": [
         {
@@ -2266,7 +2266,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Vlinders",
-        "order": 29
+        "order": 30
       },
       "components": [
         {
@@ -2301,7 +2301,7 @@
           "_anchor": "header2-1q",
           "_styles": {
             "H1": {
-              "text-align": "center",
+              "text-align": "left",
               "font-size": "36px"
             },
             "P": {
@@ -2315,7 +2315,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 1",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -2417,7 +2417,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 2",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2519,7 +2519,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 3",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2621,7 +2621,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 4",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -2723,7 +2723,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 5",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -2825,7 +2825,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 6",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -2927,7 +2927,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 7",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -3029,7 +3029,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 8",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -3131,7 +3131,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 9",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -3233,7 +3233,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 10",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -3335,7 +3335,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 11",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -3437,7 +3437,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 12",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -3539,7 +3539,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 13",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -3641,7 +3641,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 14",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -3743,7 +3743,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 15",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -3845,7 +3845,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 16",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -3947,7 +3947,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 17",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -4049,7 +4049,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 18",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -4151,7 +4151,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 19",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -4253,7 +4253,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 20",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -4355,7 +4355,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 21",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -4457,7 +4457,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 22",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -4559,7 +4559,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 23",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -4661,7 +4661,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 24",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -4763,7 +4763,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 25",
-        "order": 27
+        "order": 28
       },
       "components": [
         {
@@ -4865,7 +4865,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Bodemdieren 26",
-        "order": 28
+        "order": 29
       },
       "components": [
         {
@@ -4967,7 +4967,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Bodemdieren uitkomst",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -6814,7 +6814,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 1",
-        "order": 53
+        "order": 54
       },
       "components": [
         {
@@ -6916,7 +6916,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 2",
-        "order": 54
+        "order": 55
       },
       "components": [
         {
@@ -7018,7 +7018,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 3",
-        "order": 55
+        "order": 56
       },
       "components": [
         {
@@ -7120,7 +7120,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 4",
-        "order": 56
+        "order": 57
       },
       "components": [
         {
@@ -7222,7 +7222,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 5",
-        "order": 57
+        "order": 58
       },
       "components": [
         {
@@ -7324,7 +7324,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 6",
-        "order": 58
+        "order": 59
       },
       "components": [
         {
@@ -7426,7 +7426,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 7",
-        "order": 59
+        "order": 60
       },
       "components": [
         {
@@ -7528,7 +7528,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 8",
-        "order": 60
+        "order": 61
       },
       "components": [
         {
@@ -7630,7 +7630,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 9",
-        "order": 61
+        "order": 62
       },
       "components": [
         {
@@ -7732,7 +7732,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 10",
-        "order": 62
+        "order": 63
       },
       "components": [
         {
@@ -7834,7 +7834,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 11",
-        "order": 63
+        "order": 64
       },
       "components": [
         {
@@ -7936,7 +7936,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 12",
-        "order": 64
+        "order": 65
       },
       "components": [
         {
@@ -8038,7 +8038,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 13",
-        "order": 65
+        "order": 66
       },
       "components": [
         {
@@ -8140,7 +8140,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 14",
-        "order": 66
+        "order": 67
       },
       "components": [
         {
@@ -8242,7 +8242,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 15",
-        "order": 67
+        "order": 68
       },
       "components": [
         {
@@ -8344,7 +8344,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 16",
-        "order": 68
+        "order": 69
       },
       "components": [
         {
@@ -8446,7 +8446,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 17",
-        "order": 69
+        "order": 70
       },
       "components": [
         {
@@ -8548,7 +8548,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 18",
-        "order": 70
+        "order": 71
       },
       "components": [
         {
@@ -8650,7 +8650,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 19",
-        "order": 71
+        "order": 72
       },
       "components": [
         {
@@ -8752,7 +8752,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 20",
-        "order": 72
+        "order": 73
       },
       "components": [
         {
@@ -8854,7 +8854,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 21",
-        "order": 73
+        "order": 74
       },
       "components": [
         {
@@ -8956,7 +8956,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 22",
-        "order": 74
+        "order": 75
       },
       "components": [
         {
@@ -9058,7 +9058,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 23",
-        "order": 75
+        "order": 76
       },
       "components": [
         {
@@ -9160,7 +9160,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 24",
-        "order": 76
+        "order": 77
       },
       "components": [
         {
@@ -9262,7 +9262,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 25",
-        "order": 77
+        "order": 78
       },
       "components": [
         {
@@ -9364,7 +9364,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 26",
-        "order": 78
+        "order": 79
       },
       "components": [
         {
@@ -9466,7 +9466,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 27",
-        "order": 79
+        "order": 80
       },
       "components": [
         {
@@ -9568,7 +9568,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 28",
-        "order": 80
+        "order": 81
       },
       "components": [
         {
@@ -9670,7 +9670,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 29",
-        "order": 81
+        "order": 82
       },
       "components": [
         {
@@ -9772,7 +9772,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren 30",
-        "order": 82
+        "order": 83
       },
       "components": [
         {
@@ -9874,7 +9874,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Vlinders uitkomst",
-        "order": 30
+        "order": 31
       },
       "components": [
         {
@@ -11243,7 +11243,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Waterdieren",
-        "order": 51
+        "order": 52
       },
       "components": [
         {
@@ -11268,7 +11268,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Waterdieren",
-          "text": "Ga je dieren zoeken of heb je dieren gevonden in een sloot, plas, rivier of ven? Haal de dieren met een schepnet uit het water en doe ze voorzichtig in een witte emmer of een glazen pot. <br><br>Ben je klaar? Laat de dieren zo snel mogelijk weer vrij.&nbsp;",
+          "text": "Ga je waterdieren zoeken of heb je ze gevonden? Haal de dieren met een schepnet uit het water en doe ze voorzichtig in een witte emmer of een glazen pot. <br><br>Ben je klaar? Laat de dieren zo snel mogelijk weer vrij.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"page55.html\" data-toolbar=\"-mbrBtnMove\">Start</a>",
           "_tags": [
             "Theme"
@@ -11277,7 +11277,7 @@
           "_name": "header2",
           "_styles": {
             "H1": {
-              "text-align": "center"
+              "text-align": "left"
             },
             "P": {
               "text-align": "left"
@@ -11291,7 +11291,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 1",
-        "order": 31
+        "order": 32
       },
       "components": [
         {
@@ -11393,7 +11393,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 2",
-        "order": 32
+        "order": 33
       },
       "components": [
         {
@@ -11495,7 +11495,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 3",
-        "order": 33
+        "order": 34
       },
       "components": [
         {
@@ -11597,7 +11597,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 4",
-        "order": 34
+        "order": 35
       },
       "components": [
         {
@@ -11699,7 +11699,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 5",
-        "order": 35
+        "order": 36
       },
       "components": [
         {
@@ -11801,7 +11801,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 6",
-        "order": 36
+        "order": 37
       },
       "components": [
         {
@@ -11903,7 +11903,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 7",
-        "order": 37
+        "order": 38
       },
       "components": [
         {
@@ -12005,7 +12005,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 8",
-        "order": 38
+        "order": 39
       },
       "components": [
         {
@@ -12107,7 +12107,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 9",
-        "order": 46
+        "order": 47
       },
       "components": [
         {
@@ -12209,7 +12209,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 10",
-        "order": 39
+        "order": 40
       },
       "components": [
         {
@@ -12311,7 +12311,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 11",
-        "order": 40
+        "order": 41
       },
       "components": [
         {
@@ -12413,7 +12413,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 12",
-        "order": 41
+        "order": 42
       },
       "components": [
         {
@@ -12515,7 +12515,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 13",
-        "order": 42
+        "order": 43
       },
       "components": [
         {
@@ -12617,7 +12617,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 14",
-        "order": 43
+        "order": 44
       },
       "components": [
         {
@@ -12719,7 +12719,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 15",
-        "order": 44
+        "order": 45
       },
       "components": [
         {
@@ -12821,7 +12821,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 16",
-        "order": 45
+        "order": 46
       },
       "components": [
         {
@@ -12923,7 +12923,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 17",
-        "order": 47
+        "order": 48
       },
       "components": [
         {
@@ -13025,7 +13025,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 18",
-        "order": 48
+        "order": 49
       },
       "components": [
         {
@@ -13127,7 +13127,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 19",
-        "order": 49
+        "order": 50
       },
       "components": [
         {
@@ -13229,7 +13229,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Vlinders 20",
-        "order": 50
+        "order": 51
       },
       "components": [
         {
