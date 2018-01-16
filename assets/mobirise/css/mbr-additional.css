@@ -4,6 +4,9 @@
 #msg-box1-bz .mbr-article {
   color: #fff;
 }
+#header4-0 P {
+  color: #ffffff;
+}
 #header2-3 P {
   text-align: left;
 }
@@ -395,7 +398,7 @@
   font-size: 16px;
 }
 #menu-i.mbr-navbar--stuck .mbr-navbar__section {
-  background: #fac51c;
+  background: #f7da64;
 }
 #menu-i .mbr-navbar__hamburger {
   color: #f7da64;
